@@ -60,7 +60,7 @@ if __name__== "__main__":
     print('File name: ' + filename)
     print('Object name: ' + objectname)
 
-    net = cv2.dnn.readNetFromONNX('yolov5/models/yolov5s.onnx')
+    net = cv2.dnn.readNetFromONNX('yolov5s.onnx')
     cap = cv2.VideoCapture('input/' + filename)
     
     
